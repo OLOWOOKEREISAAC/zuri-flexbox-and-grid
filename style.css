@@ -1,0 +1,86 @@
+body{
+    /* width: 1440px; */
+    width: 85%;
+    margin: 10px auto;
+}
+nav{
+    background-color: rgb(70, 63, 63);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+section {
+    color: white;
+    font-size: 15px;
+    padding:40px ;
+    
+    
+}
+section h1{
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    padding-top: 20px;
+}
+section p{
+    font-family: Lexend Dexa;
+    font-weight: 400 ;
+    width: 90%;
+    padding-bottom: 50px;
+    
+}
+
+#sedan{
+    background-color: hsl(31, 77%, 52%);   
+}
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+#sedan button {
+    color: hsl(31, 77%, 52%);
+}
+#suvs button{
+    color: hsl(184, 100%, 22%);
+}
+#luxury button{
+    color: hsl(179, 100%, 13%);
+}
+
+
+#sedan button:active, #sedan button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 1px solid white;
+}
+#suvs button:active, #suvs button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 1px solid white;
+}
+#luxury button:active, #luxury button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 1px solid white;
+}
